@@ -14,6 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+remotes::install_github("ohdsi/ROhdsiWebApi")
+ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv",
+                                                 baseUrl = "http://atlas-demo.ohdsi.org/WebAPI",
+                                                 insertTableSql = TRUE,
+                                                 insertCohortCreationR = TRUE,
+                                                 generateStats = FALSE,
+                                                 packageName = "MesalaminePrednisoloneCD")
+
 # Format and check code ---------------------------------------------------
 styler::style_pkg()
 OhdsiRTools::checkUsagePackage("SkeletonCohortDiagnosticsStudy")
