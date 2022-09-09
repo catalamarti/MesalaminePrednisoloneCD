@@ -1,4 +1,4 @@
-cohort_id,cohort_name
-1780365,[EHDEN UMC] Persons with prednisolone CD
-1780364,[EHDEN UMC] Persons with mesalamine CD
-1780377,[EHDEN UMC] Myocarditis pericarditis outcome
+webApiCohortId,cohortId,cohortName
+1780365,1780365,[EHDEN UMC] Persons with prednisolone CD
+1780364,1780364,[EHDEN UMC] Persons with mesalamine CD
+1780377,1780377,[EHDEN UMC] Myocarditis pericarditis outcome

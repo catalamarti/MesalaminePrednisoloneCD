@@ -15,11 +15,11 @@
 # limitations under the License.
 
 remotes::install_github("ohdsi/ROhdsiWebApi")
-ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv",
-                                                 baseUrl = "http://atlas-demo.ohdsi.org/WebAPI",
-                                                 insertTableSql = TRUE,
-                                                 insertCohortCreationR = TRUE,
-                                                 generateStats = FALSE,
+ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "inst/settings/CohortsToCreate.csv",
+                                                 baseUrl = "https://atlas-demo.ohdsi.org/WebAPI",
+                                                 insertTableSql = FALSE,
+                                                 insertCohortCreationR = FALSE,
+                                                 generateStats = TRUE,
                                                  packageName = "MesalaminePrednisoloneCD")
 
 # Format and check code ---------------------------------------------------

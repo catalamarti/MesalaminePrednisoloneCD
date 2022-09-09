@@ -1,0 +1,9 @@
+cohortName,ruleSequence,ruleName,cohortId
+1780364,0,Crohns disease or Ulcerative colitis prior,1780364
+1780364,1,no prednisolone before,1780364
+1780364,2,No prior history of myocarditis ,1780364
+1780364,3,no prior IBD drugs,1780364
+1780365,0,Crohns disease or Ulcerative colitis prior,1780365
+1780365,1,no mesalamine before,1780365
+1780365,2,No prior history of myocarditis ,1780365
+1780365,3,no IBD drugs prior,1780365
